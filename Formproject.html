@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIO DATA Form</title>
+</head>
+<body>
+    <form action="#" method="get  ">
+        <fieldset>
+            <legend align="center">BIO DATA</legend>
+
+            <label for="Upload photo">Upload Photo:</label>
+            <input type="file" name="photo" id="photo" required>
+            <br><br>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Name" maxlength="16" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter email" required>
+            <label for="email">Confirm Email:</label>
+            <input type="email" id="email" name="email" placeholder="Confirm email" required>
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter password" required>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm password" required>
+            <br><br>
+
+            <label for="tel">Mobile number:</label>
+            <input type="tel" id="tel" name="Mobile number" placeholder="+91 9999999999" maxlength="10" required>
+            <br><br>
+
+            <label for="date">Date of Birth:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="number">age:</label>
+            <input type="number" name="age" id="number" min="18" max="100" required>
+            <br><br>
+
+            <label for="Gender">Gender:</label>
+            <br><br>
+            Male:<input type="radio" name="Gender" id="radio">
+            Female:<input type="radio" name="Gender" id="radio">
+            Other:<input type="radio" name="Gender" id="radio">
+            <br><br>
+
+            <label for="Height">Height:</label>
+            <input type="number" id="Height" name="Height" min="160" max="250" required> cm
+            <br><br>
+
+            <label for="Occupation">Occupation:</label>
+            <br><br>
+            Student:<input type="radio" name="Occupation" id="radio">
+            Teacher:<input type="radio" name="Occupation" id="radio">
+            Engineer:<input type="radio" name="Occupation" id="radio">
+            Doctor:<input type="radio" name="Occupation" id="radio">
+            Other:<input type="radio" name="Occupation" id="radio">
+            <br><br>
+
+            <label for="Qualification">Qualification:</label>
+            <select name="Qualification" id="Qualification">
+                <option value="">---Select qualification---</option>
+                <option value="10th">10th</option>
+                <option value="12th">12th</option>
+                <option value="Graduation">Graduation</option>
+                <option value="Post Graduation">Post Graduation</option>
+                <option value="PhD">PhD</option>
+            </select>
+            <br><br>
+
+            <label for="Country">Country:</label>
+            <select name="Country" id="Country">
+                <option value="">---Select country---</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Canada">Canada</option>
+                <option value="Australia">Australia</option>
+                <option value="Russia">Russia</option>
+                <option value="China">China</option>
+                <option value="Japan">Japan</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Italy">Italy</option>
+                <option value="Germany">Germany</option>
+                <option value="France">France</option>
+                <option value="Italy">Italy</option>
+                <option value="Spain">Spain</option>
+                <option value="Mexico">Mexico</option>
+                <option value="New york">New york</option>
+                <option value="Bhutan">Bhutan</option>
+                <option value="Sri lanka">Sri lanka</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Afghanistan">Afghanistan</option>
+            </select>
+            <br><br>
+
+            <label for="Address">Address:</label>
+            <textarea name="address" id="address" rows="4" cols="50" required></textarea>
+            <br><br>
+
+            <label for="Hobbies">Hobbies:</label>
+            <select name="Hobbies" id="Hobbies">
+               <option value="">---Select hobbies---</option>
+               <option value="Reading">Reading</option>
+               <option value="Traveling">Traveling</option>
+               <option value="Music">Music</option>
+               <option value="Sports">Sports</option>
+               <option value="Painting">Painting</option> 
+               <option value="Dance">Dance</option>
+               <option value="Drawing">Drawing</option>
+               <option value="Running">Running</option>
+               <option value="Cooking">Cooking</option>
+               <option value="Cycling">Cycling</option>
+               <option value="Boxing">Boxing</option>
+               <option value="Design">Design</option>
+               <option value="Skydiving">Skydiving</option>
+               <option value="Yoga">Yoga</option>
+               <option value="Chess">Chess</option>
+            </select>
+            <br><br>
+
+            <label for="Short bio">Short bio:</label>
+            <textarea id="Short bio" name="Short bio" rows="4" cols="50" required></textarea>
+            <br><br>
+
+            <label for="checkbox">I agree to the terms and conditions:</label>
+            <input type="checkbox" name="terms" id="checkbox" required>
+            <br><br>
+
+            &nbsp;<button type="submit">submit</button>
+            &nbsp;<button type="reset">reset</button>  
+        </fieldset>
+    </form>
+</body>
+</html>
